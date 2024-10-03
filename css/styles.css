@@ -1,0 +1,56 @@
+/* Custom styles for TheTutor website */
+
+/* Add space after navbar */
+/* body {
+    padding-top: 2px;
+} */
+
+.navbar-nav .nav-link {
+    color: #302c2c !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8 !important;
+}
+/* Style the home section and carousel */
+/* #home {
+    background-color: #f8f9fa;
+    padding: 2px 0;
+} */
+
+#carouselExampleIndicators .carousel-item img {
+    height: 200px; /* Default height */
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleIndicators .carousel-item img {
+        height: 150px; /* Reduced height for smaller screens */
+    }
+}
+#carouselExampleIndicators {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* .navbar {
+    margin-bottom: 0.3rem !important;
+}
+ */
+
+/* Footer styles */
+.social-icons a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
